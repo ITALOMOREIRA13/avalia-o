@@ -1,0 +1,48 @@
+/*13. Faça um programa que leia 10 números que o usuário vai informar.
+Todos os números lidos com valor inferior a 40 devem ser somados. Escreva o valor final da soma efetuada.  */
+
+
+programa
+{
+	inteiro numero
+	
+	funcao inicio()
+	{
+ 
+ 		escreva("Digite 1° número: ")
+ 		leia(numero)
+ 		escreva("Digite 2° número: ")
+ 		leia(numero)
+		escreva("Digite 3° número: ")
+ 		leia(numero)
+		escreva("Digite 4° número: ")
+ 		leia(numero)
+ 		escreva("Digite 5° número: ")
+ 		leia(numero)
+		escreva("Digite 6° número: ")
+ 		leia(numero)
+		escreva("Digite 7° número: ")
+ 		leia(numero)
+		escreva("Digite 8° número: ")
+ 		leia(numero)
+ 		escreva("Digite 9° número: ")
+ 		leia(numero)
+		escreva("Digite 10° número: ")
+ 		leia(numero)
+
+ 		
+
+ 		se (numero >= 40 ){
+ 			escreva("não hávera soma")
+ 		}
+ 	
+ 		senao se (numero < 40) {
+ 			numero = numero*10
+ 			escreva ("a soma dos números é: ", numero)
+ 		}
+
+	}
+ 		
+ 	
+}
+

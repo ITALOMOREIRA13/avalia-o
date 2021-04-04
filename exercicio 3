@@ -1,0 +1,33 @@
+programa
+{
+// 3. Faça um programa para ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles.
+
+	
+	inteiro numero1, numero2, numero3
+	
+	
+	funcao inicio()
+	{
+		escreva("Digite 1° número: ")
+		leia(numero1)
+		escreva("Digite 2° número: ")
+		leia(numero2)
+		escreva("Digie 3° número: ")
+		leia(numero3)
+
+		se (numero1 > numero2 e numero1 > numero3){
+			escreva(" 1° maior")
+		}
+		senao se(numero2 > numero1 e numero2 > numero3){
+			escreva("2° maior")
+		}
+		senao{
+			escreva("3° maior")
+		
+		
+		
+		
+		}
+		
+	}
+}

@@ -1,0 +1,25 @@
+/*17 - Reescreva o código abaixo como um programa do Portugol.*/
+
+programa
+{
+	
+	funcao inicio()
+	{
+ 
+  		real imc, peso, altura
+
+  
+ 		escreva ("Digite seu peso: ")
+		leia(peso)
+ 		escreva ("Digite sua altura: ")
+		leia(altura)
+		
+
+		imc= peso/(altura*altura)
+		
+
+		escreva("Seu imc é: ", imc)
+		
+	}
+}
+ 

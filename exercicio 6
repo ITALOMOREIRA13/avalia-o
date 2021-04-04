@@ -1,0 +1,33 @@
+programa
+{
+/*6. Faça um programa que leia dois valores e exiba uma das três mensagens a seguir: ‘Números iguais’, caso os números sejam iguais ‘Primeiro é 
+ maior’, caso o primeiro seja maior que o segundo; ‘Segundo maior’, caso o segundo seja maior que o primeiro.*/
+	
+	funcao inicio()
+	{
+ 
+		inteiro num1, num2
+
+ 
+		escreva("Digite o 1° numero: ")
+		leia(num1)
+ 		escreva ("Digite o 2° numero: ")
+		leia(num2)
+
+		se(num1 == num2){
+			escreva("números iguais")
+		}
+
+		senao se (num1> num2){
+ 		escreva ("1° número é maior")
+		}
+
+		senao{
+			escreva("2° numero é maior")
+			
+		}
+	
+	
+
+	}
+}

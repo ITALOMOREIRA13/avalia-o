@@ -1,0 +1,38 @@
+/*7. Faça um programa que exiba os números de 1 (inclusive) a 10 (inclusive) em ordem crescente   */
+
+
+programa
+{
+	
+	funcao inicio()
+	{
+ 
+ 		real x=1, total, t2, t3, t4, t5, t6, t7, t8, t9
+		
+ 
+		escreva("número de 1 a 10 em ordem crescente ","\n")
+
+
+		total= x+1
+		t2 = x+2
+		t3 = x+ 3
+		t4 = x + 4
+          t5 = x + 5
+          t6 = x + 6
+          t7 = x + 7
+          t8 = x + 8
+          t9 = x + 9
+
+
+        escreva ( x, "\n", total,"\n", t2, "\n", t3, "\n", t4, "\n", t5, "\n", t6, "\n", t7, "\n", t8, "\n", t9 )
+ 		
+
+
+
+
+
+
+		
+		
+	}
+}

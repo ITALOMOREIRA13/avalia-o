@@ -1,0 +1,29 @@
+/*16 - Reescreva o código abaixo como um programa do Portugol.*/
+
+programa
+{
+	
+	funcao inicio()
+	{
+ 
+ 		real n1, n2, media
+	
+ 
+		escreva("Digite a sua 1ª nota: ")
+		leia(n1)
+ 		escreva ("Digite sua 2ª nota: ")
+		leia(n2)
+ 		media= ( n1 + n2 )/2
+
+
+ 		se (media >= 7 ){
+ 		escreva("Aprovado sua média é: ", media)
+		}
+			
+		senao{
+ 		escreva("Reprovado sua média é: ", media) 
+		}
+
+	}
+
+}

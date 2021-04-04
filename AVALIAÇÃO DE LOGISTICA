@@ -1,0 +1,24 @@
+programa
+{
+/*1. Faça um programa que leia um valor informado pelo usuário e diga se o valor informado é positivo, negativo ou zero */
+
+	inteiro valor
+	
+	funcao inicio()
+	{
+		escreva("Digite um valor: ")
+		leia(valor)
+
+		se(valor >0){
+		escreva("número positivo")
+		}
+		senao se(valor <0){
+		escreva("número negativo ")
+		}
+		senao{
+			escreva("número zero")
+		}
+		
+		
+	}
+}

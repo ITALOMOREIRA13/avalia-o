@@ -1,0 +1,21 @@
+programa
+{
+/*2. Faça um programa mostrando a tabuada do 5 com os números de 1 a 10 */
+
+
+
+		real   numero, total
+
+
+	
+		funcao inicio()
+		{
+		escreva("Digite o valor que quer saber da tabuada do 5 de 1 a 10: ")
+		leia(numero)
+
+		 total = numero * 5 
+		
+
+		 escreva(" o resultado é : ", total)
+	} 
+}
